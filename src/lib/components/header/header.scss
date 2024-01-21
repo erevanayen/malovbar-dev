@@ -1,0 +1,45 @@
+@import '../../styles/fonts';
+@import '../../styles/colors';
+
+header {
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $color-white;
+	height: 72px;
+
+	font-family: 'Inter', sans-serif;
+	color: $color-dark;
+
+	a {
+		text-decoration: none;
+		color: $color-dark;
+	}
+
+	border-bottom: 1px solid $color-dark;
+}
+
+#logo-link {
+	font-weight: 500;
+	font-size: 48px;
+	display: flex;
+
+	span {
+		margin-right: 8px;
+	}
+}
+
+nav {
+	position: absolute;
+	right: 0px;
+
+	margin-right: 32px;
+
+	font-size: 1.5em;
+
+	a:not(:last-child) {
+		margin-right: 32px;
+	}
+}

@@ -1,0 +1,55 @@
+@import '../../styles/fonts';
+@import '../../styles/colors';
+
+footer {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: $color-magenta;
+	color: $color-white;
+
+	padding: 0px 128px 32px 128px;
+
+	a {
+		text-decoration: none;
+		color: $color-white;
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	> div {
+		margin-top: 64px;
+	}
+}
+
+#left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 60%;
+
+	span {
+		margin-bottom: 1.5em;
+	}
+}
+
+#center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+
+	a {
+		margin-bottom: 1.5em;
+	}
+}
