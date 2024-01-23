@@ -4,22 +4,24 @@
 </script>
 
 <footer>
-	<div class="grid">
-		<div id="left">
-			<span>
-				Some very inspirational stuff to entertain and enlighten the reader. Also to show some other
-				text in the footer than just plain links.
-			</span>
-			<span>-by me</span>
+	<div class="content">
+		<div class="grid">
+			<div id="left">
+				<span>
+					Some very inspirational stuff to entertain and enlighten the reader. Also to show some
+					other text in the footer than just plain links.
+				</span>
+				<span>-by me</span>
+			</div>
+			<div id="center"><LogoFlower strokeColor={'#ffffff'} width={'50px'} /></div>
+			<div id="right">
+				<a href="">email@email.email</a>
+				<a href="https://www.instagram.com/malovbar/">instagram</a>
+				<a href="">linkedIn</a>
+			</div>
 		</div>
-		<div id="center"><LogoFlower strokeColor={'#ffffff'} width={'50px'} /></div>
-		<div id="right">
-			<a href="">email@email.email</a>
-			<a href="https://www.instagram.com/malovbar/">instagram</a>
-			<a href="">linkedIn</a>
-		</div>
+		<div>© malovbar</div>
 	</div>
-	<div>© malovbar</div>
 </footer>
 
 <style src="./footer.scss">

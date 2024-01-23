@@ -1,5 +1,6 @@
 @import '../../styles/fonts';
 @import '../../styles/colors';
+@import '../../styles/vars';
 
 footer {
 	font-family: 'Inter', sans-serif;
@@ -8,12 +9,17 @@ footer {
 	background-color: $color-magenta;
 	color: $color-white;
 
-	padding: 0px 128px 32px 128px;
+	padding: 0px 0px 32px 0px;
 
 	a {
 		text-decoration: none;
 		color: $color-white;
 	}
+}
+
+.content {
+	width: $desktop-width;
+	margin: 0 auto;
 }
 
 .grid {
