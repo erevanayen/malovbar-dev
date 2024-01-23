@@ -1,9 +1,24 @@
-<script>
+<script lang="ts">
 	import LogoFlower from '$lib/assets/logo-flower.svelte';
 	import '$lib/styles/style.scss';
+	import { onDestroy, onMount } from 'svelte';
+
+	export let scrollNavBar = 60;
+
+	let show = false;
+
+	onMount(() => {
+		window.onscroll = () => {
+			if (window.scrollY > scrollNavBar) {
+				show = true;
+			} else {
+				show = false;
+			}
+		};
+	});
 </script>
 
-<header>
+<header class:scrolled={show}>
 	<div></div>
 	<a id="logo-link" href="/"><span>malovbar</span><LogoFlower width={'50px'} /></a>
 	<nav>

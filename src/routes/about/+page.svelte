@@ -1,6 +1,5 @@
 <script>
 	import profilePic from '$lib/assets/profilePic.png';
-	import Page from '../+page.svelte';
 </script>
 
 <section>
@@ -9,7 +8,6 @@
 			<p>barbora</p>
 			<p>malovana</p>
 		</div>
-		<p class="subtitle">my super cool shit</p>
 		<p class="text">
 			To put it mildly, the advantage of the essential component has become even more significant
 			for The Evaluation of Special Facility" (Alan Andersen in The Book of the Application Rules)
@@ -19,15 +17,11 @@
 		<p class="text">
 			To put it mildly, the advantage of the essential component has become even more significant
 			for The Evaluation of Special Facility" (Alan Andersen in The Book of the Application Rules)
-			As a matter of fact the lack of knowledge of a small part of the resource management should
-			set clear rules regarding every contradiction between the
-		</p>
-		<p class="text">
 			As a matter of fact the lack of knowledge of a small part of the resource management should
 			set clear rules regarding every contradiction between the
 		</p>
 	</div>
-	<div class="image-container"><img src={profilePic} alt="profile picture" /></div>
+	<div class="image-container"><img src={profilePic} alt="profile" /></div>
 </section>
 
 <style lang="scss">
@@ -64,6 +58,7 @@
 
 	.text {
 		font-size: 1.25em;
+		text-align: justify;
 	}
 
 	.image-container {

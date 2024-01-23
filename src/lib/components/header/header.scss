@@ -2,13 +2,17 @@
 @import '../../styles/colors';
 
 header {
-	position: relative;
+	position: fixed;
+	opacity: 0;
+	transition: 0.5s ease;
+	z-index: 1000;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: $color-white;
 	height: 72px;
+	width: 100vw;
 
 	font-family: 'Inter', sans-serif;
 	color: $color-dark;
@@ -42,4 +46,8 @@ nav {
 	a:not(:last-child) {
 		margin-right: 32px;
 	}
+}
+
+.scrolled {
+	opacity: 100;
 }

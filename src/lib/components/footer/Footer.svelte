@@ -1,6 +1,5 @@
 <script>
 	import LogoFlower from '$lib/assets/logo-flower.svelte';
-	import '$lib/styles/colors.scss';
 </script>
 
 <footer>
@@ -15,8 +14,8 @@
 			</div>
 			<div id="center"><LogoFlower strokeColor={'#ffffff'} width={'50px'} /></div>
 			<div id="right">
-				<a href="">email@email.email</a>
-				<a href="https://www.instagram.com/malovbar/">instagram</a>
+				<a href="">malovbar@gmail.com</a>
+				<a href="https://www.instagram.com/malovbar/" target="_blank">instagram</a>
 				<a href="">linkedIn</a>
 			</div>
 		</div>
