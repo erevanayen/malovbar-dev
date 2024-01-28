@@ -39,6 +39,8 @@
 		position: relative;
 		img {
 			width: 100vw;
+			height: 100%;
+			object-fit: cover;
 			position: fixed;
 			z-index: -1;
 		}
