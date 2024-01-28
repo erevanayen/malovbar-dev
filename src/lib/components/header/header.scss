@@ -23,6 +23,8 @@ header {
 	}
 
 	border-bottom: 1px solid $color-dark;
+
+	pointer-events: none;
 }
 
 #logo-link {
@@ -50,4 +52,5 @@ nav {
 
 .scrolled {
 	opacity: 100;
+	pointer-events: all;
 }

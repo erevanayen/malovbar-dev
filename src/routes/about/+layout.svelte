@@ -4,7 +4,7 @@
 	import '$lib/styles/style.scss';
 </script>
 
-<Header />
+<Header hideable={false} />
 
 <main>
 	<slot />

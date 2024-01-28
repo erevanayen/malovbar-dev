@@ -31,6 +31,12 @@
 		grid-template-columns: 1fr 1fr;
 
 		padding: 128px 0px 256px;
+
+		width: 60%;
+		margin: 0 auto;
+
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.about {

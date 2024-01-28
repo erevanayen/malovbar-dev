@@ -35,11 +35,10 @@
 	}
 
 	.hero {
-		width: 100vw;
 		height: 100svh;
 		position: relative;
 		img {
-			height: 100%;
+			width: 100vw;
 			position: fixed;
 			z-index: -1;
 		}

@@ -4,10 +4,16 @@
 	import { onDestroy, onMount } from 'svelte';
 
 	export let scrollNavBar = 60;
+	export let hideable = true;
 
 	let show = false;
 
 	onMount(() => {
+		if (!hideable) {
+			show = true;
+			return;
+		}
+
 		window.onscroll = () => {
 			if (window.scrollY > scrollNavBar) {
 				show = true;

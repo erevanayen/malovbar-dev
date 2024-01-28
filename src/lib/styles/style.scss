@@ -3,11 +3,10 @@
 body {
 	margin: 0px;
 	background-color: white;
+}
 
-	main {
-		> * {
-			margin: 0 auto;
-			width: $desktop-width;
-		}
-	}
+main {
+}
+
+@media only screen and (min-width: $desktop-width) {
 }
