@@ -1,12 +1,13 @@
 <script lang="ts">
 	import LogoFlower from '$lib/assets/logo-flower.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <header>
-	<a href="/" id="logo-link"><span>malovbar</span><LogoFlower width={`50px`} /></a>
+	<a href="{base}/" id="logo-link"><span>malovbar</span><LogoFlower width={`50px`} /></a>
 	<nav>
-		<a href="/">products</a>
-		<a href="/">about</a>
+		<a href="{base}/">products</a>
+		<a href="{base}/">about</a>
 	</nav>
 </header>
 

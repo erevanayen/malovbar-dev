@@ -1,5 +1,6 @@
 <script lang="ts">
 	import LogoFlower from '$lib/assets/logo-flower.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <footer>
@@ -12,9 +13,9 @@
 		</div>
 		<div id="center"><LogoFlower strokeColor={'#ffffff'} width={'50px'} /></div>
 		<div id="right">
-			<a href="/">malovbar@gmail.com</a>
+			<a href="{base}/">malovbar@gmail.com</a>
 			<a href="https://www.instagram.com/malovbar/" target="_blank">instagram</a>
-			<a href="/">linkedIn</a>
+			<a href="{base}/">linkedIn</a>
 		</div>
 	</div>
 </footer>
