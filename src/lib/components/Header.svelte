@@ -6,7 +6,7 @@
 	<a href="/" id="logo-link"><span>malovbar</span><LogoFlower width={`50px`} /></a>
 	<nav>
 		<a href="#">products</a>
-		<a href="/about">about</a>
+		<a href="/">about</a>
 	</nav>
 </header>
 
